@@ -1,0 +1,140 @@
+body{
+
+    background-color: rgb(0, 0, 0);
+}
+
+image{
+
+    position: relative;
+}
+
+.background {
+    width: auto; 
+    max-width: 1670px;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-left: 100px;
+    padding-top: -50px;
+}
+.logo {
+    width: auto;
+    max-width: 500px;
+    height: auto;
+    position: absolute;
+    margin-top: -143px;
+    margin-left: 130px;
+}
+
+.javascript {
+    height: 10%;
+    width: 80px;
+    margin-top: -40px; 
+    margin-left: 630px; 
+}
+
+.text1 p {
+
+    color: white;
+    font-family: 'Jersey 10';font-size: 40px;;
+    margin-left: -570px;
+    text-align-last: center;
+    padding-top: 50px;
+}
+
+.trailer{
+    border: 10px white;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    z-index: 4000;
+    padding-left: 70%;
+    margin-top: -300px;
+    position: absolute;
+}
+
+.fight {
+    position: absolute;
+    z-index: 5000;
+    height: 100px;
+    width: auto;
+    padding-left: 71%;
+    margin-top: -50px;
+}
+
+.sinopse h1{
+
+    font-family: 'Jersey 10';font-size: 70px;;
+    font-weight: bold;
+    margin-top: 270px;
+    padding-left: 1300px;
+    color: rgb(255, 234, 0);
+}
+
+.sinopse p{
+    color: white;
+    font-family: 'Jersey 10';font-size: 40px;;
+    text-align: center;
+    padding-left: 500px;
+    margin-right: 50px;
+}
+
+.human{
+    border-radius: 50%;
+    height: 300px;
+    width :300px;
+    z-index: 4000;
+    margin-left: 100px;
+    margin-top: -350px;
+    position: absolute;
+}
+
+.spare{
+    position: absolute;
+    z-index: 5000;
+    height: 100px;
+    width: auto;
+    padding-left: 120px;
+    margin-top: -150px;
+}
+
+.project h2{
+    font-family: 'Jersey 10';font-size: 70px;;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 90px;
+    color: rgb(255, 234, 0);
+}
+
+.project p{
+    color: white;
+    font-family: 'Jersey 10';font-size: 40px;;
+    text-align: center;
+    padding-right: 100px;
+    margin-left: 100px;
+}
+
+.linkproject p{
+    font-family: 'Jersey 10';font-size: 70px;;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 90px;
+    padding-left: 300px;
+    padding-right: 300px;
+    color: rgb(255, 255, 255);
+}
+
+.linkproject a{
+    font-family: 'Jersey 10';font-size: 70px;;
+    font-weight: bold;
+    text-align: center;
+    margin-top: -70px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.linkproject a:hover{
+    color: rgb(255, 234, 0);
+   cursor: pointer;
+}
