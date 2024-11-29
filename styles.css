@@ -10,13 +10,13 @@ image{
 
 .background {
     width: auto; 
-    max-width: 1670px;
+    max-width: 1200px;
     height: auto;
     display: flex;
     text-align: center;
     justify-content: center;
-    padding-left: 100px;
-    padding-top: -50px;
+    padding-left: 1.7%;
+    margin-top: -6%;
 }
 .logo {
     width: auto;
@@ -45,11 +45,11 @@ image{
 
 .trailer{
     border: 10px white;
-    border-radius: 50%;
+    border-radius: 100%;
     height: 300px;
     width: 300px;
     z-index: 4000;
-    padding-left: 70%;
+    margin-left: 900px;
     margin-top: -300px;
     position: absolute;
 }
@@ -59,7 +59,7 @@ image{
     z-index: 5000;
     height: 100px;
     width: auto;
-    padding-left: 71%;
+    margin-left: 920px;
     margin-top: -50px;
 }
 
@@ -68,7 +68,7 @@ image{
     font-family: 'Jersey 10';font-size: 70px;;
     font-weight: bold;
     margin-top: 270px;
-    padding-left: 1300px;
+    padding-left: 800px;
     color: rgb(255, 234, 0);
 }
 
@@ -81,12 +81,13 @@ image{
 }
 
 .human{
-    border-radius: 50%;
+    border: 10px white;
+    border-radius: 100%;
     height: 300px;
-    width :300px;
+    width: 300px;
     z-index: 4000;
     margin-left: 100px;
-    margin-top: -350px;
+    margin-top: -400px;
     position: absolute;
 }
 
@@ -95,7 +96,7 @@ image{
     z-index: 5000;
     height: 100px;
     width: auto;
-    padding-left: 120px;
+    margin-left: 110px;
     margin-top: -150px;
 }
 
