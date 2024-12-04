@@ -1,141 +1,116 @@
-body{
-
-    background-color: rgb(0, 0, 0);
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
-image{
-
+h1 {
+    color: white;
+    font-size: 70px;
+    padding: 260px;
+    padding-bottom: 50%;
+    background-color: black;
+    text-align: center;
+    margin-top: -1px;
+    overflow: hidden; /* Esconde o texto enquanto está sendo digitado */
+    white-space: nowrap; /* Impede quebra de linha */
     position: relative;
 }
 
-.background {
-    width: auto; 
-    max-width: 1200px;
-    height: auto;
-    display: flex;
+h1 span {
+    display: inline-block;
+    width: 0; /* Inicialmente o texto não ocupa espaço */
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 4s steps(40) 1s forwards, blink-caret 0.75s step-end infinite;
+    border-right: 4px solid white; /* Cursor piscando */
+}
+
+/* Animação de digitação */
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Efeito de piscar o cursor */
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+img.me {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    z-index: 2;
+    position: absolute; 
+    margin-top: -220px; 
+    padding: 90px;
+}
+
+h2 {
+    padding-left: 420px;
+    margin-top: -20px;
+    font-size: 38px;
     text-align: center;
-    justify-content: center;
-    padding-left: 1.7%;
-    margin-top: -6%;
-}
-.logo {
-    width: auto;
-    max-width: 500px;
-    height: auto;
-    position: absolute;
-    margin-top: -143px;
-    margin-left: 130px;
 }
 
-.javascript {
-    height: 10%;
-    width: 80px;
-    margin-top: -40px; 
-    margin-left: 630px; 
-}
-
-.text1 p {
-
-    color: white;
-    font-family: 'Jersey 10';font-size: 40px;;
-    margin-left: -570px;
-    text-align-last: center;
-    padding-top: 50px;
-}
-
-.trailer{
-    border: 10px white;
-    border-radius: 100%;
-    height: 300px;
-    width: 300px;
-    z-index: 4000;
-    margin-left: 900px;
-    margin-top: -300px;
-    position: absolute;
-}
-
-.fight {
-    position: absolute;
-    z-index: 5000;
-    height: 100px;
-    width: auto;
-    margin-left: 920px;
-    margin-top: -50px;
-}
-
-.sinopse h1{
-
-    font-family: 'Jersey 10';font-size: 70px;;
-    font-weight: bold;
-    margin-top: 270px;
-    padding-left: 800px;
-    color: rgb(255, 234, 0);
-}
-
-.sinopse p{
-    color: white;
-    font-family: 'Jersey 10';font-size: 40px;;
-    text-align: center;
-    padding-left: 500px;
-    margin-right: 50px;
-}
-
-.human{
-    border: 10px white;
-    border-radius: 100%;
-    height: 300px;
-    width: 300px;
-    z-index: 4000;
-    margin-left: 100px;
-    margin-top: -400px;
-    position: absolute;
-}
-
-.spare{
-    position: absolute;
-    z-index: 5000;
-    height: 100px;
-    width: auto;
-    margin-left: 110px;
+.meandme{
+    padding-top: 70px;
+    padding-left: 5px;
+    padding-right: 23px;
+    padding-bottom: 40px;
+    margin-left: 3px;
     margin-top: -150px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
 }
 
-.project h2{
-    font-family: 'Jersey 10';font-size: 70px;;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 90px;
-    color: rgb(255, 234, 0);
-}
-
-.project p{
+.container-fluid{
+    background-color: black;
     color: white;
-    font-family: 'Jersey 10';font-size: 40px;;
     text-align: center;
-    padding-right: 100px;
-    margin-left: 100px;
 }
 
-.linkproject p{
-    font-family: 'Jersey 10';font-size: 70px;;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 90px;
-    padding-left: 300px;
-    padding-right: 300px;
-    color: rgb(255, 255, 255);
+.about_lesson{
+    font-size: 30px;
+    padding-left: 430px;
+    padding-top: 30px;
 }
 
-.linkproject a{
-    font-family: 'Jersey 10';font-size: 70px;;
-    font-weight: bold;
-    text-align: center;
-    margin-top: -70px;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
+h3{
+    font-size: 40px;
 }
 
-.linkproject a:hover{
-    color: rgb(255, 234, 0);
-   cursor: pointer;
+.aboutme{
+    padding: 50px;
+    padding-right: 400px;
+    padding-left: 400px;
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    margin-top: 250px;
+    color: white;
+    font-size: 20px;
+}
+
+h4{
+    margin-top: 700px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.project_undertale{
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: 60px;
+    margin-left: 80px;
 }
