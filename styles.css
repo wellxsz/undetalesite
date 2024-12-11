@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    color: black;
 }
 
 h1 {
@@ -113,4 +114,49 @@ h4{
     padding: 30px;
     margin-top: 60px;
     margin-left: 80px;
+    
+}
+
+p.title{
+    font-size: 30px;
+    font-weight:bolder ;
+    padding-left: 150px;
+    margin-top: -20px;
+}
+p.desc{
+    font-size: 20px;
+    padding-left: 150px;
+    margin-top: -20px;
+}
+
+.senai_project{
+    border-radius: 50px;
+    padding: 30px;
+    margin-top: -515px;
+    margin-left: 570px;
+    
+}
+
+p.title_senai{
+    font-size: 30px;
+    font-weight:bolder ;
+    padding-left: 220px;
+    margin-top: -20px;
+}
+p.desc_senai{
+    font-size: 20px;
+    padding-left: 150px;
+    margin-top: -20px;
+}
+
+footer{
+    padding: 100px;
+    background-color: black;
+    margin-top: 140px;
+    color: white;
+}
+
+.titl{
+    font-size: 30px;
+    margin-top: -60px;
 }
